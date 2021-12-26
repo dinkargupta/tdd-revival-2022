@@ -22,3 +22,7 @@ Created a new workspce for this and then followed the instructions with three su
 1. For go, the offical site is ok
 2. For node, follow advise [Here](https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
 
+One other time saving trick for us using Windows Subsystem for Linux(WSL) for local development and VS Code as IDE..
+
+Use [WSL Remote VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) for this... then you can work from within IDE for WSL Ubuntu deployment.. One doesn't need to keep switching between Ubuntu console and IDE...
+

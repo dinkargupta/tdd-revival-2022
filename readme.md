@@ -1,7 +1,6 @@
-Setup on WSL, Windows 11 (as on December 26th 2021)
-on Ubuntu 2004.2021.825.0
+**Setup on WSL, Windows 11 (as on December 26th 2021) on Ubuntu 2004.2021.825.0**
 
-had git installed
+Already had git installed
 
 **installed Python 3.10**
 1. sudo apt update
@@ -13,14 +12,13 @@ had git installed
 **installed golang**
 1. sudo apt install goland
 
-then start with guidance from the book "Learning Test Driven Development" to revive and refine TDD practices in context of current development context with languages Python, Go and Javascript 
+then start with guidance from the book [Learning Test Driven Development](https://www.oreilly.com/library/view/learning-test-driven-development/9781098106461/) to revive and refine TDD practices in context of current development context with languages Python, Go and Javascript 
 
-so created a new workspce for this and then follow the instructions with three sub folder for each language...
+started... 
+Created a new workspce for this and then followed the instructions with three sub folder for each languages go, JS and Python
 
-just a suggestion.. be careful with your nodeJS and go installations.. can eat up your 2 hours to fix this...
+***Just a suggestion.. be careful with your nodeJS and go installations.. can eat up your 2 hours to fix this***
 
-For go
-the offical site is ok
-For node...
-https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+1. For go, the offical site is ok
+2. For node, follow advise [Here](https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
 

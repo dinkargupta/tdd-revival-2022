@@ -16,3 +16,11 @@ had git installed
 then start with guidance from the book "Learning Test Driven Development" to revive and refine TDD practices in context of current development context with languages Python, Go and Javascript 
 
 so created a new workspce for this and then follow the instructions with three sub folder for each language...
+
+just a suggestion.. be careful with your nodeJS and go installations.. can eat up your 2 hours to fix this...
+
+For go
+the offical site is ok
+For node...
+https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version
+

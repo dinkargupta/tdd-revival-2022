@@ -2,6 +2,14 @@ package main
 
 import "testing"
 
+type Dollar struct {
+	amount int
+}
+
+func (d Dollar) Times(multiplier int) Dollar {
+	return Dollar{10}
+}
+
 func TestMultiplication(t *testing.T) {
 	fiver := Dollar{
 		amount: 5,

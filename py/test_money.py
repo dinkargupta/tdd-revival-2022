@@ -1,11 +1,5 @@
 import unittest
 
-class Dollar:
-    def __init__(self, amount):
-        self.amount = amount
-    def times(self, multiplier):
-        return Dollar(self.amount * multiplier)
-
 class Money:
     def __init__(self, amount, currency):
         self.amount = amount
@@ -14,14 +8,15 @@ class Money:
         return Money(self.amount * multiplier, self.currency)
 
 
-class TestMoney(unittest.TestCase):
+class TestDollarMoney(unittest.TestCase):
     def testMultiplication(self):
-        fiver = Dollar(5)
-        tenner = fiver.times(2)
-        self.assertEqual(10, tenner.amount)
+        fiveDollars = Money(5,"USD")
+        tenDollars = fiveDollars.times(2)
+        self.assertEqual(10, tenDollars.amount)
+        self.assertEqual("USD", tenDollars.currency)
 
 class TestEuroMoney(unittest.TestCase):
-    def testMultiplicationInEuro(self):
+    def testMultiplication(self):
         tenEuro = Money(10,'EUR')
         twentyEuro = tenEuro.times(2)
         self.assertEqual(20, twentyEuro.amount)

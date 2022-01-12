@@ -10,7 +10,7 @@ Already had git installed
 5. sudo apt install python3.10
 
 **installed golang**
-1. sudo apt install goland
+1. sudo apt install golang
 
 then start with guidance from the book [Learning Test Driven Development](https://www.oreilly.com/library/view/learning-test-driven-development/9781098106461/) to revive and refine TDD practices in context of current development context with languages Python, Go and Javascript 
 
